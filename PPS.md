@@ -1,6 +1,6 @@
-practical file (PPS)
+MARK DOWN FILE  (PPS)
 
-Submitted To -   HARDEEP SINGH SIR
+SUBMITTED TO -  RANJODH KAUR
 
 **NAME - ABHISHEK PUNIA
       , CLASS - IT-A1
@@ -58,7 +58,6 @@ scanf("%f", &d);
 p=22/7.0*d;
 a=22/7.0*d*d/4;
 printf("peremeter is %.1f \narea is %.1f \nof circle with diameter %.1f",p,a,d);
-
 }
 ```
 ```c
@@ -664,7 +663,7 @@ return 0;
 #include<stdio.h>
 void main()
 {
-puts("belcome to budding engineers! to gne collage ludhiana");
+puts("welcome all budding engineers to gne collage ludhiana");
 }
 
 ```
