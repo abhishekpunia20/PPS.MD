@@ -1,4 +1,4 @@
-MARK DOWN FILE  (PPS)
+// C Language Programs Codes
 
 SUBMITTED TO -  RANJODH KAUR
 
@@ -44,9 +44,10 @@ int main()
 
 ```c
 #include<stdio.h>
-void main()
+int main()
 {
 puts("principal\npanth pattan shiri gurucharan singh tohra complex \nguru nanak dev engineering collage \ngill park \nludhiana 141006 \nindia\n");
+    return 0;
 }
 
 #include<stdio.h>
@@ -150,7 +151,10 @@ printf("enter no\n");
 scanf("%d",&a);
 if ( a%2 == 0)
 printf("no is even");
-else printf("no is odd");
+else
+{
+printf("no is odd");
+}
 return 0;
 }
 ```
@@ -163,12 +167,12 @@ int main()
 int a, b=1;
 printf("enter no\n");
 scanf("%d",&a);
-while(a>0)
+while(a>=0)
 {
 b=b*a;
 a=a-1;
 }
-printf("factorial is %d\n",b);
+printf("factorial is : %d\n",b);
 return 0;
 }
 
@@ -252,12 +256,14 @@ return 0;
 int main()
 {
 int n; 
-printf("Enter the year u want to check it for leap :");
+printf("Enter the year u want to check it for leap : ");
 scanf("%d",&n);
 if(n%4==0)
 printf("it is a leap year\n");
 else
+{
 printf(" not a leap year\n");
+}
 return 0;
 }
 
@@ -661,9 +667,10 @@ return 0;
 
 
 #include<stdio.h>
-void main()
+int main()
 {
 puts("welcome all budding engineers to gne collage ludhiana");
+  return 0;
 }
 
 ```
